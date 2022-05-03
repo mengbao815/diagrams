@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T12:54:20.197Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="aIU75ipkpy2z_6PwbmSz" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-03T13:18:06.771Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="8HPgQBqxXChbt2VQsTwP" version="17.5.0" type="github">
   <diagram id="knVdi2B20uO46Ndzs_iI" name="Page-1">
     <mxGraphModel dx="2500" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -247,6 +247,37 @@
         </mxCell>
         <mxCell id="ZMraVCoQCxqRNA1w8z8N-89" value="Step 5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-710" y="1300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-91" value="客户端" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="1780" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-92" value="服务端" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="1780" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;shape=link;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="1" source="ZMraVCoQCxqRNA1w8z8N-93" target="ZMraVCoQCxqRNA1w8z8N-94">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-653" y="2040" />
+              <mxPoint x="-130" y="2040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-93" value="socket" style="ellipse;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-698" y="1890" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-94" value="socket" style="ellipse;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="1890" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="ZMraVCoQCxqRNA1w8z8N-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-398" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-96" value="管道" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-428" y="1950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-98" value="1. 客户端创建socket&lt;br&gt;2. 客户端的socket连接到服务端的socket&lt;br&gt;3. 发送数据&lt;br&gt;4. 断开连接，并删除socket" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="1820" width="240" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
