@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-05-01T04:25:38.443Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="16.2.4" etag="OHXZBsqxdt5cP8_C9fc7" type="github"><diagram id="knVdi2B20uO46Ndzs_iI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-03T05:48:09.431Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="redCtaeP2UZ4B5KUQSvb" version="17.5.0" type="github">
+  <diagram id="knVdi2B20uO46Ndzs_iI" name="Page-1">
+    <mxGraphModel dx="1422" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZMraVCoQCxqRNA1w8z8N-1" target="ZMraVCoQCxqRNA1w8z8N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-1" value="PC 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZMraVCoQCxqRNA1w8z8N-2" target="ZMraVCoQCxqRNA1w8z8N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-2" value="PC 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZMraVCoQCxqRNA1w8z8N-3" target="ZMraVCoQCxqRNA1w8z8N-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-3" value="PC 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZMraVCoQCxqRNA1w8z8N-4" target="ZMraVCoQCxqRNA1w8z8N-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-4" value="中继式集线器/交换式集线器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="300" width="236" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-5" value="路由器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZMraVCoQCxqRNA1w8z8N-6" target="ZMraVCoQCxqRNA1w8z8N-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-6" value="PC 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZMraVCoQCxqRNA1w8z8N-7" target="ZMraVCoQCxqRNA1w8z8N-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-7" value="PC 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZMraVCoQCxqRNA1w8z8N-8" target="ZMraVCoQCxqRNA1w8z8N-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-8" value="PC 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="594" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZMraVCoQCxqRNA1w8z8N-9" target="ZMraVCoQCxqRNA1w8z8N-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-9" value="中继式集线器/交换式集线器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="540" width="236" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
