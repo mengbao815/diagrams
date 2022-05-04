@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T13:18:06.771Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="8HPgQBqxXChbt2VQsTwP" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T09:31:07.480Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="eGTPRGQZABkAPPp8b2Z-" version="17.5.0" type="github">
   <diagram id="knVdi2B20uO46Ndzs_iI" name="Page-1">
-    <mxGraphModel dx="2500" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2723" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,6 +278,45 @@
         </mxCell>
         <mxCell id="ZMraVCoQCxqRNA1w8z8N-98" value="1. 客户端创建socket&lt;br&gt;2. 客户端的socket连接到服务端的socket&lt;br&gt;3. 发送数据&lt;br&gt;4. 断开连接，并删除socket" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="-520" y="1820" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-99" value="IP 地址和端口号：客户端和服务器之间用来识别对方套接字的机制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-523" y="1780" width="218" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-100" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-815" y="2210" width="1245" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-101" value="用户空间" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="2240" width="1200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-102" value="内核" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="2410" width="1200" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-103" value="网卡" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-797" y="2740" width="1200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-104" value="DNS解析器" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-105" value="libcurl" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-474" y="2310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-106" value="TCP&lt;br&gt;(需要连接)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-638" y="2430" width="378" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-107" value="UDP&lt;br&gt;(不需要连接)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="2430" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-108" value="IP&lt;br&gt;(传送网络包，确定路由)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-638" y="2510" width="870" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-109" value="ICMP" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-608" y="2530" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-110" value="ARP" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-71" y="2530" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-111" value="网卡驱动程序&lt;br&gt;(控制网卡)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-643" y="2630" width="873" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
