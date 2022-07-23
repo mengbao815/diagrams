@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T14:57:50.861Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="2vBdJMu9k7EcLsTMIMYm" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-23T15:08:41.007Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="qeLIUn36DvqB7DeiwapW" version="19.0.0" type="github">
   <diagram id="knVdi2B20uO46Ndzs_iI" name="Page-1">
     <mxGraphModel dx="2249" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -202,7 +202,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZMraVCoQCxqRNA1w8z8N-60" value="最新DNS服务器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" parent="1" vertex="1">
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-60" value="最近DNS服务器" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;" parent="1" vertex="1">
           <mxGeometry x="-59" y="1345" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZMraVCoQCxqRNA1w8z8N-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;" parent="1" source="ZMraVCoQCxqRNA1w8z8N-68" target="ZMraVCoQCxqRNA1w8z8N-60" edge="1">
@@ -360,7 +360,7 @@
         <mxCell id="ZMraVCoQCxqRNA1w8z8N-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#0000FF;strokeWidth=1;fillColor=#d80073;strokeColor=#A50040;" parent="1" source="ZMraVCoQCxqRNA1w8z8N-123" target="ZMraVCoQCxqRNA1w8z8N-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZMraVCoQCxqRNA1w8z8N-123" value="远端的IP地址和端口号&lt;br&gt;0.0.0.0 ：还没有还是通讯，还没有绑定IP地址和端口号" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=15;fontColor=#0000FF;" parent="1" vertex="1">
+        <mxCell id="ZMraVCoQCxqRNA1w8z8N-123" value="远端的IP地址和端口号&lt;br&gt;0.0.0.0 ：还没有开始通讯，还没有绑定IP地址和端口号" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=15;fontColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="-77" y="3125" width="447" height="55" as="geometry" />
         </mxCell>
         <mxCell id="ZMraVCoQCxqRNA1w8z8N-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;fontColor=#0000FF;strokeWidth=1;fillColor=#d80073;strokeColor=#A50040;" parent="1" source="ZMraVCoQCxqRNA1w8z8N-124" target="ZMraVCoQCxqRNA1w8z8N-117" edge="1">
@@ -601,13 +601,13 @@
         <mxCell id="k86qAy5aLDPnwpmkuN-q-1" value="客户端有客户端的序号，&lt;br&gt;服务端有服务端的序号。&lt;br&gt;连接过程中互相告知自己计算的序号的初始值。" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="3665" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hs_UgmOE2A2rFXneIejC-1" value="TCP通过 序号 和 ACK号 可以确认接收房是否收到了网络包" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hs_UgmOE2A2rFXneIejC-1" value="TCP通过 序号 和 ACK号 可以确认接收房是否收到了网络包" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="493" y="3760" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hs_UgmOE2A2rFXneIejC-3" value="等待ACK的时间（超时时间）：这个时间是动态调整的，是根据ACK号返回所需要的时间来调整的" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hs_UgmOE2A2rFXneIejC-3" value="等待ACK的时间（超时时间）：这个时间是动态调整的，是根据ACK号返回所需要的时间来调整的" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-770" y="5530" width="670" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hs_UgmOE2A2rFXneIejC-4" value="滑动窗口：发送一个数据包之后，不会一直等ACK来了以后再发送下一个数据的。&lt;br&gt;滑动窗口，就是说不等待一个数据包的ACK，而是直接发送后续的一系列数据包。&lt;br&gt;为了避免发送方在 接受方没有地方缓存数据包的情况下 还继续发送数据包，接收方需要告诉 还可以缓存多少数据。&lt;br&gt;能够缓存的最大的数据量 叫做 窗口大小，是TCP调优的重要的参数。" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hs_UgmOE2A2rFXneIejC-4" value="滑动窗口：发送一个数据包之后，不会一直等ACK来了以后再发送下一个数据的。&lt;br&gt;滑动窗口，就是说不等待一个数据包的ACK，而是直接发送后续的一系列数据包。&lt;br&gt;为了避免发送方在 接受方没有地方缓存数据包的情况下 还继续发送数据包，接收方需要告诉 还可以缓存多少数据。&lt;br&gt;能够缓存的最大的数据量 叫做 窗口大小，是TCP调优的重要的参数。" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-768" y="5640" width="670" height="70" as="geometry" />
         </mxCell>
       </root>
