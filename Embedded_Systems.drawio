@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2022-07-23T15:36:27.573Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="XtdAdCJkPuXRT677cGR_" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-24T04:51:37.231Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="8b7KqDn_An6RqRM0M30x" version="19.0.0" type="github">
   <diagram id="knVdi2B20uO46Ndzs_iI" name="Page-1">
-    <mxGraphModel dx="2858" dy="1086" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3197" dy="1267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-62" value="Sever" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=22;fontColor=#FF0D5D;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="3480" width="310" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-76" value="ACK号， 窗口" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="150.67000000000007" y="670" as="sourcePoint" />
+            <mxPoint x="-389.9966666666661" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-77" value="序号+数据" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="150.67000000000007" y="770" as="sourcePoint" />
+            <mxPoint x="-389.996666666666" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-78" value="ACK号， 窗口" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-379.9966666666661" y="850" as="sourcePoint" />
+            <mxPoint x="160.67000000000007" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-193" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-79" value="ACK号" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="150.67000000000007" y="1250" as="sourcePoint" />
+            <mxPoint x="-389.996666666666" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-82" value="FIN:1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-386.16666666666606" y="1160" as="sourcePoint" />
+            <mxPoint x="154.5" y="1160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-199.17000000000007" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-85" value="连接" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=22;fontColor=#000000;" vertex="1" parent="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry x="-480" y="110" width="770" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-86" value="通讯" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=22;fontColor=#000000;" vertex="1" parent="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry x="-480" y="510" width="770" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-87" value="断开" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=22;fontColor=#000000;" vertex="1" parent="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry x="-480" y="960" width="770" height="390" as="geometry" />
+        </mxCell>
         <mxCell id="ZMraVCoQCxqRNA1w8z8N-147" value="Server" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=15;fontColor=#0000FF;strokeColor=default;strokeWidth=2;fillColor=default;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-220" y="3480" width="498" height="1050" as="geometry" />
         </mxCell>
@@ -844,6 +892,60 @@
         <mxCell id="za_0BEvb6HJsj3MwH-vP-56" value="减少网络包" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;fontColor=#FF0D5D;" vertex="1" connectable="0" parent="za_0BEvb6HJsj3MwH-vP-55">
           <mxGeometry x="-0.304" y="3" relative="1" as="geometry">
             <mxPoint x="28" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-57" value="Object" style="html=1;fontSize=22;fontColor=#FF0D5D;" vertex="1" parent="1">
+          <mxGeometry x="30" y="4160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-63" value="SYN=1, 序号初始值，窗口" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="1" source="za_0BEvb6HJsj3MwH-vP-61" target="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="968.8333333333339" y="3644" as="sourcePoint" />
+            <mxPoint x="1419.5" y="3644" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1180" y="3644" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-64" value="ACK号， 窗口， SYN=1，序号初始值" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="1" source="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="1509.5" y="3750" as="sourcePoint" />
+            <mxPoint x="1003.8333333333339" y="3750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-65" value="ACK号" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="1" target="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1010.0033333333339" y="3860" as="sourcePoint" />
+            <mxPoint x="1460.67" y="3860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1221.17" y="3860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-61" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=22;fontColor=#FF0D5D;" vertex="1" parent="1">
+          <mxGeometry x="900" y="3480" width="210" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-70" value="序号+数据" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="1" source="za_0BEvb6HJsj3MwH-vP-61" target="za_0BEvb6HJsj3MwH-vP-62">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1014.663333333334" y="4060" as="sourcePoint" />
+            <mxPoint x="1555.33" y="4060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1190.83" y="4060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-80" value="FIN:1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="1540.67" y="4480" as="sourcePoint" />
+            <mxPoint x="1000.003333333334" y="4480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za_0BEvb6HJsj3MwH-vP-81" value="ACK号" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=22;fontColor=#FF0D5D;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1010.003333333334" y="4560" as="sourcePoint" />
+            <mxPoint x="1550.67" y="4560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1197" y="4560" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
